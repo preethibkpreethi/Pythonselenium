@@ -1,0 +1,15 @@
+multi='''line1
+line2
+line3'''
+print(multi)
+print(multi[-1])
+multi1="""linea
+lineb
+linec
+lined..."""
+print(multi1)
+print(multi1[-1])
+print(multi1[-4])
+print(multi1[1])
+print(id(multi1[0]))
+print(id(multi1))
